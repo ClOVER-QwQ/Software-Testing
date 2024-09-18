@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreData.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreDate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/___.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="ClOVER(项目规格)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/java/PreData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +74,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "PreData",
     "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
     "go.import.settings.migrated": "true",
+    "java.suggest.annotation.dependency": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -110,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.PreDate">
+  <component name="RunManager" selected="JUnit.PreDateTest2">
     <configuration name="PreDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PreDate" />
       <module name="PreDate" />
@@ -127,15 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreDataTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PreDate" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PreDataTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PreDataTest2.testPreData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreDate" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,11 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreDataTest.testIsBigMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PreDateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreDate" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PreDataTest" />
-      <option name="METHOD_NAME" value="testIsBigMonth(int,boolean)" />
+      <option name="MAIN_CLASS_NAME" value="PreDateTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreDateTest2.testPreDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PreDateTest2" />
+      <option name="METHOD_NAME" value="testPreDate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PreDateTest2" />
         <item itemvalue="应用程序.PreDate" />
+        <item itemvalue="JUnit.PreDateTest2.testPreDate" />
         <item itemvalue="JUnit.PreDataTest2.testPreData" />
         <item itemvalue="JUnit.PreDataTest" />
-        <item itemvalue="JUnit.PreDataTest2" />
-        <item itemvalue="JUnit.PreDataTest.testIsBigMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +164,8 @@
       <workItem from="1726583807482" duration="2306000" />
       <workItem from="1726586188897" duration="3205000" />
       <workItem from="1726660834206" duration="1113000" />
-      <workItem from="1726665041183" duration="3151000" />
+      <workItem from="1726665041183" duration="3379000" />
+      <workItem from="1726680483161" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="ClOVER(项目规格)">
       <created>1726110615674</created>
@@ -201,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726111907056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ClOVER(项目规格)">
+      <created>1726671826391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726671826391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +232,21 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/PreDate/src/main/java/PreDate.java</url>
+          <line>96</line>
+          <properties class="PreDate" method="isLeapYear">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
