@@ -4,24 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="ClOVER(项目规格)">
+    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreData.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreDate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/___.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreData/src/main/java/PreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreData/src/main/java/PreData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/src/main/java/PreData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreData/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/PreData/src/main/java/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
+        <option value="composer.json" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="项目" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -63,6 +85,9 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "PreData",
+    "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
@@ -73,40 +98,71 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "spring",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="PreData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PreData" />
-      <module name="PreData" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="PreData" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.PreDate">
+    <configuration name="PreDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PreDate" />
+      <module name="PreDate" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="SoftwareTesting" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
+    <configuration name="PreDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PreDataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="SoftwareTesting" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
+    <configuration name="PreDataTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PreDataTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreDataTest2.testPreData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PreDataTest2" />
+      <option name="METHOD_NAME" value="testPreData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreDataTest.testIsBigMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PreDataTest" />
+      <option name="METHOD_NAME" value="testIsBigMonth(int,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.PreData" />
+        <item itemvalue="应用程序.PreDate" />
+        <item itemvalue="JUnit.PreDataTest2.testPreData" />
+        <item itemvalue="JUnit.PreDataTest" />
+        <item itemvalue="JUnit.PreDataTest2" />
+        <item itemvalue="JUnit.PreDataTest.testIsBigMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +175,10 @@
       <option name="presentableId" value="Default" />
       <updated>1726109871686</updated>
       <workItem from="1726109872606" duration="3116000" />
+      <workItem from="1726583807482" duration="2306000" />
+      <workItem from="1726586188897" duration="3205000" />
+      <workItem from="1726660834206" duration="1113000" />
+      <workItem from="1726665041183" duration="3151000" />
     </task>
     <task id="LOCAL-00001" summary="ClOVER(项目规格)">
       <created>1726110615674</created>
@@ -178,5 +238,12 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftwareTesting$PreData.ic" NAME="PreData 覆盖结果" MODIFIED="1726393501902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
