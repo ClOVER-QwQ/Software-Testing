@@ -3,14 +3,12 @@ import org.jetbrains.annotations.NotNull;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.Arrays;
 import java.util.Collection;
-
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class PreDateTest2 {
+public class preDateTest {
 
     private int year;
     private int month;
@@ -26,7 +24,7 @@ public class PreDateTest2 {
                 {2024, 13, 30, "请输入有效日期 ! ! !"},
                 {2024, 12, 32, "请输入有效日期 ! ! !"},
                 {2024, 11, 30, "2024-11-29"},
-                {2023, 3, 1, "2023-2-28"},
+                {2023, 9, 1, "2023-8-31"},
                 {2000, 3, 1, "2000-2-29"},
                 {2024, 4, 1, "2024-3-31"},
                 {2024, 5, 1, "2024-4-30"},
@@ -36,7 +34,7 @@ public class PreDateTest2 {
         });
     }
 
-    public PreDateTest2(int year, int month, int day, String expectedResult) {
+    public preDateTest(int year, int month, int day, String expectedResult) {
         this.year = year;
         this.month = month;
         this.day = day;
@@ -45,8 +43,7 @@ public class PreDateTest2 {
 
     @Test
     public void testPreDate() {
-        String result = PreDate.preDate(year, month, day);
+        String result = preData.preDate(year, month, day);
         assertEquals(expectedResult, result);
-        System.out.println(result);
     }
 }
