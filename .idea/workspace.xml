@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="ClOVER(项目规格)" />
+    <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="ClOVER(项目规格)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/test/java/preDateTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.main">
+  <component name="RunManager" selected="JUnit.preDateTest">
     <configuration name="PreDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PreDate" />
       <module name="PreDate" />
@@ -106,29 +111,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreDataTest2.testPreData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="preDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreDate" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PreDataTest2" />
-      <option name="METHOD_NAME" value="testPreData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PreDateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PreDate" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PreDateTest2" />
+      <option name="MAIN_CLASS_NAME" value="preDateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreDateTest2.testPreDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="preDateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreDate" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PreDateTest2" />
+      <option name="MAIN_CLASS_NAME" value="preDateTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="preDateTest2.testPreDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreDate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="preDateTest2" />
       <option name="METHOD_NAME" value="testPreDate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.preDateTest" />
+        <item itemvalue="JUnit.preDateTest2" />
+        <item itemvalue="JUnit.preDateTest2.testPreDate" />
         <item itemvalue="应用程序.main" />
-        <item itemvalue="JUnit.PreDateTest2" />
         <item itemvalue="应用程序.PreDate" />
-        <item itemvalue="JUnit.PreDateTest2.testPreDate" />
-        <item itemvalue="JUnit.PreDataTest2.testPreData" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +163,7 @@
       <workItem from="1726660834206" duration="1113000" />
       <workItem from="1726665041183" duration="3379000" />
       <workItem from="1726680483161" duration="2981000" />
+      <workItem from="1726709980839" duration="4546000" />
     </task>
     <task id="LOCAL-00001" summary="ClOVER(项目规格)">
       <created>1726110615674</created>
@@ -195,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726683349483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ClOVER(项目规格)">
+      <created>1726710099697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726710099697</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,21 +244,6 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/PreDate/src/main/java/PreDate.java</url>
-          <line>96</line>
-          <properties class="PreDate" method="isLeapYear">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

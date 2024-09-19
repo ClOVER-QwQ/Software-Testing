@@ -1,7 +1,5 @@
-import java.util.Scanner;
-
 public class PreDate {
-    public static String preDate(int year, int month, int day) {
+    public String preDate(int year, int month, int day) {
         String result;
         if (validateDate(year, month, day)) {
             if(day == 1){
@@ -46,26 +44,25 @@ public class PreDate {
 
     public static boolean validateDate(int year, int month, int day) {
         boolean flag = false;
-        if(0<month&&month<=12){
-            if (isBigMonth(month)) {
-                if(0<day&&day<=31){
-                    flag = true;
-                }
-            }
-            else {
-                if(month!=2){
-                    if(0<day&&day<=30){
+        if(year != 0) {
+            if (0 < month && month <= 12) {
+                if (isBigMonth(month)) {
+                    if (0 < day && day <= 31) {
                         flag = true;
                     }
-                    else {
-                        if(isLeapYear(year)){
-                            if(0<day&&day<=29){
-                                flag = true;
-                            }
-                        }
-                        else {
-                            if (0<day&&day<=28){
-                                flag = true;
+                } else {
+                    if (month != 2) {
+                        if (0 < day && day <= 30) {
+                            flag = true;
+                        } else {
+                            if (isLeapYear(year)) {
+                                if (0 < day && day <= 29) {
+                                    flag = true;
+                                }
+                            } else {
+                                if (0 < day && day <= 28) {
+                                    flag = true;
+                                }
                             }
                         }
                     }
@@ -85,7 +82,7 @@ public class PreDate {
 
     public static boolean isBigMonth(int month){
         boolean flag = true;
-        if (month%2==0) {
+        if (month==2||month==4||month==6||month==9||month==11) {
             flag = false;
         }
         return flag;
