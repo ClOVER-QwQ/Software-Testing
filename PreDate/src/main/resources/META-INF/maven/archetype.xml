@@ -1,5 +1,5 @@
 <archetype>
-  <id>PreData</id>
+  <id>PreDate</id>
   <sources>
     <source>src/main/java/App.java</source>
   </sources>
