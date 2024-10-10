@@ -1,14 +1,538 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="was-test:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ed0564-ce92-43d8-8604-d7b393619699" name="更改" comment="ClOVER(项目规格)">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/was_test_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/artifacts/JavaWeb_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/artifacts/JavaWeb_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/NewBeeMallApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/IndexConfigTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/NewBeeMallCategoryLevelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/NewBeeMallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/NewBeeMallOrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/PayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/PayTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/common/ServiceResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/config/NeeBeeMallWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallCarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallGoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallGoodsIndexConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/admin/NewBeeMallUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/common/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/common/ErrorPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/common/NewBeeMallExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/common/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/mall/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/mall/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/mall/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/mall/PersonalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/mall/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallGoodsDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallIndexCarouselVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallIndexCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallIndexConfigGoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallOrderDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallOrderListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallSearchGoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallShoppingCartItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/SearchPageCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/SecondLevelCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/controller/vo/ThirdLevelCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/AdminUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/GoodsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/IndexConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/MallUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/NewBeeMallGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/NewBeeMallOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/NewBeeMallOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/dao/NewBeeMallShoppingCartItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/GoodsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/IndexConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/MallUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/NewBeeMallGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/NewBeeMallOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/NewBeeMallOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/NewBeeMallShoppingCartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/entity/StockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/interceptor/AdminLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/interceptor/NewBeeMallCartNumberInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/interceptor/NewBeeMallLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/AdminUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallCarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallIndexConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/NewBeeMallUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallCarouselServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallIndexConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/service/impl/NewBeeMallUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/NewBeeMallUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/PageQueryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/PatternUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/ResultGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/java/ltd/newbee/mall/util/SystemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/AdminUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/IndexConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/MallUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/NewBeeMallGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/NewBeeMallOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/NewBeeMallOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/mapper/NewBeeMallShoppingCartItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/newbee_mall_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/img-upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/new-bee-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/new-bee-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/newbee-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/img/no-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/adminlte.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_goods_edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_index_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/newbee_mall_user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chart.js2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/cartesian/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/cartesian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/cartesian/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/cartesian/logarithmic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/cartesian/time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/labelling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/radial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/radial/linear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/axes/styling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/doughnut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/mixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/polar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/radar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/charts/scatter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/configuration/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/axes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/developers/updates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/device-pixel-ratio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/interactions/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/interactions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/interactions/modes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/general/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/getting-started/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/getting-started/installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/getting-started/integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/getting-started/usage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/fonts/fontawesome/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-chartjs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-ga/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-highlight/ebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-highlight/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/jquery.mark.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-search-plus/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/gitbook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/images/apple-touch-icon-precomposed-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/gitbook/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/notes/comparison.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/notes/extensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/notes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/notes/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/search_plus_index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/chartjs2/docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/login-bg-particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/esm/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/plugins/popper/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/dist/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/ajaxupload/ajaxupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/css/bootstrap3.3.7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/grid.locale-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/jquery.jqGrid.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/ui.jqgrid-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/ui.jqgrid-bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jqgrid-5.7.0/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/sweetalert2/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/sweetalert2/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/wangeditor-5.1.23/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/admin/plugins/wangeditor-5.1.23/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/css/bootstrap-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/fonts/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/7d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/donate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/hua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/ji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/login-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/login_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/new-bee-logo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/null-content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/alipay_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/alipay_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_gdyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_gfyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_gsyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_jiangsshuyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_jsyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_jtyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_nyyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_pufa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_shncsyyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_xyyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_youzheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_zfb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_zgyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_zsyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/payOnline_zxyh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/scan-alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/scan-wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/unionpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/wave-repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/weixinpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/wx_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/pay/wxpay_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/right-@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/search-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/air.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/baby-car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/headphones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/hot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/m6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/pc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/sub_banner/r6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/swiper/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/swiper/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/swiper/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/image/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/bootstrap3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/jquery-1.8.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/addresses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/my-orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/order-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/order-settle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/pay-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/static/mall/styles/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_goods_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_index_config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/newbee_mall_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/admin/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/error/error_400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/error/error_404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/error/error_5xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/alipay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/my-orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/order-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/order-settle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/pay-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/personal-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/templates/mall/wxpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/src/main/resources/upload.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-test/was-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/main/java/PreDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreDate/src/test/java/PreDateTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/src/test/java/preDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreDate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PreDate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +565,30 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../lib/maven" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2lx7Rr4uPaWHAsEarnMmyHCIbYC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,53 +599,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;PreData&quot;,
-    &quot;com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary&quot;: &quot;PHPUnit&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "PreData",
+    "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
+    "go.import.settings.migrated": "true",
+    "java.suggest.annotation.dependency": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/learn/SoftwareTesting/was-test/tool",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "spring.configuration.checksum": "a77b3598941cb803eac0fcdafe44fac9",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learn\SoftwareTesting\was-test\src\main\webapp" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="PreData" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ozm.tmall.config" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.preDateTest">
-    <configuration name="PreDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PreDate" />
-      <module name="PreDate" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NewBeeMallApplication">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="was-test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="PreDate" />
+    <configuration name="UserServiceImpl.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="was-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxy.service.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxy.service.user" />
+      <option name="MAIN_CLASS_NAME" value="com.wxy.service.user.UserServiceImpl" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,32 +696,131 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="preDateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PreDate" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="preDateTest2" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SoftwareTesting/was/templates/mall/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/was/the-internet-master/public/js/vendor/jquery-ui-1.11.4/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tmall_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ozm.tmall.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="preDateTest2.testPreDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PreDate" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="preDateTest2" />
-      <option name="METHOD_NAME" value="testPreDate" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="NewBeeMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="was" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ltd.newbee.mall.NewBeeMallApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 10.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="was-test:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c97218f6-d1f1-47a1-8f2e-3a8394ef3a12" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49847" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="was-test:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.index.html (1)" />
+      <item itemvalue="JavaScript 调试.index.html" />
+      <item itemvalue="JUnit.UserServiceImpl.test" />
+      <item itemvalue="JUnit.preDateTest" />
+      <item itemvalue="Spring Boot.NewBeeMallApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.0.2" />
+      <item itemvalue="应用程序.main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.index.html (1)" />
         <item itemvalue="JUnit.preDateTest" />
-        <item itemvalue="JUnit.preDateTest2" />
-        <item itemvalue="JUnit.preDateTest2.testPreDate" />
-        <item itemvalue="应用程序.main" />
-        <item itemvalue="应用程序.PreDate" />
+        <item itemvalue="JUnit.UserServiceImpl.test" />
+        <item itemvalue="应用程序.main (1)" />
+        <item itemvalue="JavaScript 调试.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +838,17 @@
       <workItem from="1726660834206" duration="1113000" />
       <workItem from="1726665041183" duration="3379000" />
       <workItem from="1726680483161" duration="2981000" />
-      <workItem from="1726709980839" duration="4546000" />
+      <workItem from="1726709980839" duration="5874000" />
+      <workItem from="1727316889509" duration="2099000" />
+      <workItem from="1727319399876" duration="477000" />
+      <workItem from="1727319893811" duration="995000" />
+      <workItem from="1727321063710" duration="91000" />
+      <workItem from="1727321244499" duration="7590000" />
+      <workItem from="1727510861864" duration="2520000" />
+      <workItem from="1728466866427" duration="296000" />
+      <workItem from="1728519463399" duration="979000" />
+      <workItem from="1728521061621" duration="8346000" />
+      <workItem from="1728540645221" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="ClOVER(项目规格)">
       <created>1726110615674</created>
@@ -207,7 +892,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726710099697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ClOVER(项目规格)">
+      <created>1726716946008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726716946008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
