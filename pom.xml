@@ -9,14 +9,6 @@
   <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
   <modules>
     <module>PreDate</module>
-    <module>was-test</module>
+    <module>HighConcurrencyTesting</module>
   </modules>
-
-<dependencies>
-  <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.8-dmr</version>
-  </dependency>
-</dependencies>
 </project>
